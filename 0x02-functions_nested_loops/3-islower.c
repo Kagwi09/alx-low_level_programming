@@ -4,6 +4,7 @@
 /**
 *_islower - checks for lowercase letters
 *Return: 1 if true, 0 if false
+*@c: character to be checked
 */
 
 int _islower(int c)
