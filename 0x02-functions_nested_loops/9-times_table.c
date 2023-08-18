@@ -18,6 +18,7 @@ c = a * b;
 if (c <= 9)
 {
 putchar(' ');
+putchar(' ');
 putchar('0' + c);
 }
 else
@@ -26,13 +27,11 @@ putchar(' ');
 putchar('0' + c / 10);
 putchar('0' + c % 10);
 }
-
 if (b != 9)
 {
 putchar(',');
 }
 }
-
 putchar('\n');
 }
 }
