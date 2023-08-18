@@ -18,7 +18,6 @@ c = a * b;
 if (c <= 9)
 {
 putchar(' ');
-putchar(' ');
 putchar('0' + c);
 }
 else
