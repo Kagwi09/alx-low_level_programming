@@ -17,23 +17,21 @@ c = a * b;
 if (c == 0)
 {
 putchar('0');
-putchar(',');
-putchar(' ');
-putchar(' ');
 }
 else if (c > 0 && c <= 9)
 {
-putchar('0' + c);
+
 putchar(',');
 putchar(' ');
 putchar(' ');
+putchar('0' + c);
 }
 else
 {
-putchar('0' + c / 10);
-putchar('0' + c % 10);
 putchar(',');
 putchar(' ');
+putchar('0' + c / 10);
+putchar('0' + c % 10);
 }
 }
 putchar('\n');
