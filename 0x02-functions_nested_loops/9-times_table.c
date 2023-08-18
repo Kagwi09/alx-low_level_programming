@@ -16,28 +16,26 @@ for (b = 0; b <= 9; b++)
 c = a * b;
 if (c == 0)
 {
-	putchar('0' + c);
-	putchar(' ');
-	putchar(' ');
+putchar('0');
+putchar(',');
+putchar(' ');
+putchar(' ');
 }
 else if (c > 0 && c <= 9)
 {
-putchar(' ');
-putchar(' ');
 putchar('0' + c);
+putchar(',');
+putchar(' ');
+putchar(' ');
 }
 else
 {
-putchar(' ');
 putchar('0' + c / 10);
 putchar('0' + c % 10);
-}
-if (b != 9)
-{
 putchar(',');
+putchar(' ');
 }
 }
 putchar('\n');
 }
 }
-
