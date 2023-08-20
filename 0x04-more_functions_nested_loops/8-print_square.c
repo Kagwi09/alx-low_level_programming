@@ -24,7 +24,6 @@ for (n = 0; n < size; n++)
 {
 putchar(h);
 }
-putchar(h);
 putchar('\n');
 }
 }
