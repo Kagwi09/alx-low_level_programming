@@ -12,11 +12,8 @@ length = 0;
 
 while (str[length] != '\0')
 {
-if (str[length] % 2 == 0)
-{
 putchar(str[length]);
-}
-length++;
+length += 2;
 }
 putchar('\n');
 }
