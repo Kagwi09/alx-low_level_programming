@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
 *main - prits the product of two numbers
 *@argc: arguement count
