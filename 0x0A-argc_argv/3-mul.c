@@ -9,23 +9,11 @@
 */
 int main(int argc, char *argv[])
 {
-int a;
-int mul;
-mul = 1;
-
-if (argc > 1)
-{
-for (a = 1; a < argc; a++)
-{
-mul *= atoi(argv[a]);
-}
-printf("%d\n", mul);
-return (0);
-}
 if (argc != 3)
 {
 printf("Error\n");
 return (1);
 }
+printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 return (0);
 }
